@@ -22,7 +22,7 @@ def find_the_cheese(arr)
   match = (arr & cheese_types)
   if match != nil
     match[0].to_s
-  elsif match == nil
+  else
     return nil
   end
 end
