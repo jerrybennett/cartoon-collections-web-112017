@@ -21,6 +21,7 @@ def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if arr & cheese_types != nil
     match = arr & cheese_types
+    puts "#{match}"
   else
 
   end
