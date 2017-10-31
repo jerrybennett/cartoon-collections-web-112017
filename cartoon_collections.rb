@@ -1,11 +1,13 @@
 def roll_call_dwarves(dwarves)
+  names = []
   dwarves.each_with_index(1) {|name, num|
-    prints "#{num}. #{name}"
+    names << "#{num}. #{name}"
   }
+  name.join("")
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(arr)
+  arr
 end
 
 def long_planeteer_calls# code an argument here
