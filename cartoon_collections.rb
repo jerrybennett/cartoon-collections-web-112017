@@ -19,5 +19,9 @@ end
 def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  match = arr & cheese_types
+  if arr & cheese_types != nil
+    match = arr & cheese_types
+  else
+
+  end
 end
