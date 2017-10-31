@@ -1,7 +1,9 @@
 def roll_call_dwarves(arr)
+  names = []
   arr.each_with_index(1) {|name, num|
-    puts num + ". " + name
+    names << num + ". " + name
   }
+  return names.join(" ")
 end
 
 def summon_captain_planet(arr)
