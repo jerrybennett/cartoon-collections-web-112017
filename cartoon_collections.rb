@@ -11,15 +11,11 @@ def summon_captain_planet(arr)
 end
 
 def long_planeteer_calls(arr)
-  if condition
     arr.each {|word|
       word.length > 4
       return true
     }
-  else
     return false
-  end
-
 end
 
 def find_the_cheese# code an argument here
