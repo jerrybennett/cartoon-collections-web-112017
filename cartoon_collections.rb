@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(arr)
   arr.collect { |word|
-    "#{word.upcase}!"
+    word.upcase + "!"
   }
 end
 
