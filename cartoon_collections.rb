@@ -5,8 +5,8 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(arr)
-  arr.collect { |word|
-    word.upcase + "!"
+  arr.collect { |i|
+    i.upcase + "!"
   }
 end
 
