@@ -23,6 +23,6 @@ def find_the_cheese(arr)
   if match != nil
     match[0].to_s
   else
-    return nil
+    nil
   end
 end
