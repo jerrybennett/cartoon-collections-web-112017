@@ -20,9 +20,9 @@ def find_the_cheese(arr)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   match = (arr & cheese_types)
-  if match != 0
+  if match.length != 0
     match[0].to_s
   else
-    nil
+    return nil
   end
 end
